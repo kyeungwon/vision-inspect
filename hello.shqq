@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "안녕하세요"
+echo "오늘 날짜: $(date +%Y-%m-%d)"
+echo "현재 위치: $(pwd)"
+chmod +x hello.sh
+./hello.sh
+name="vision"
+count=3
+echo "$name 프로젝트, 이미지 $count 장"
+x
